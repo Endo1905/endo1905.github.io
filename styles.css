@@ -8,10 +8,10 @@
 body {
     padding: 0;
     margin: 0;
-    background: grey;
     color: white;
     display: flex;
     flex-direction: column;
+    /* overflow-x: hidden; */
 }
 
 header 
@@ -28,7 +28,6 @@ header .header-panel1
     /* border: 1px solid yellow; */
     width: 50%;
     text-align: center;
-    
 }
 
 header .header-panel2
@@ -43,11 +42,11 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 5vh;
+    min-height: 60vh;
     padding: 100px 20vw;
 }
 
-.header-first {
+section#first .header-first {
     position: absolute;
     top: 0;
     left: 0;
@@ -56,13 +55,68 @@ section {
     line-height: 0;
 }
 
-.header-first svg {
+section#first .header-first svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 103px;
 }
 
-.header-first .shape-fill {
+section#first .header-first .shape-fill {
     fill: #131316;
+}
+
+section#first
+{
+    background: #3b037a;
+    border: 3px solid yellow;
+}
+
+section#first .first-section-container
+{
+    /* width: 100%; */
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* !!! */
+
+section#first .first-section-container > div
+{
+    border: 2px solid red;
+    font-size: 2rem;
+    width: 100%;
+}
+
+section#first .first-section-container .galery
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.section-first {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.section-first svg {
+    position: relative;
+    display: block;
+    width: calc(137% + 1.3px);
+    height: 72px;
+}
+
+.section-first .shape-fill {
+    fill: #3b037a;
+}
+
+section#second
+{
+    background: #131316;
 }
