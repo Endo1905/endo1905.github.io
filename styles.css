@@ -42,7 +42,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 60vh;
+    /* min-height: 60vh; */
     padding: 100px 20vw;
 }
 
@@ -66,37 +66,35 @@ section#first .header-first .shape-fill {
     fill: #131316;
 }
 
+section#first .first-container
+{
+    border: 2px solid green;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    padding: .5em;
+    gap: 5%;
+}
+
+section#first .first-container .content
+{
+    border: 2px solid red;
+}
+
+section#first .first-container .galery
+{
+    border: 2px solid pink;
+}
+
 section#first
 {
     background: #3b037a;
     border: 3px solid yellow;
 }
 
-section#first .first-section-container
-{
-    /* width: 100%; */
-    padding: 2rem;
-    display: flex;
-    justify-content: space-around;
-}
-
-/* !!! */
-
-section#first .first-section-container > div
-{
-    border: 2px solid red;
-    font-size: 2rem;
-    width: 100%;
-}
-
-section#first .first-section-container .galery
-{
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-.section-first {
+section#second .section-first {
     position: absolute;
     top: 0;
     left: 0;
@@ -105,14 +103,14 @@ section#first .first-section-container .galery
     line-height: 0;
 }
 
-.section-first svg {
+section#second .section-first svg {
     position: relative;
     display: block;
     width: calc(137% + 1.3px);
     height: 72px;
 }
 
-.section-first .shape-fill {
+section#second .section-first .shape-fill {
     fill: #3b037a;
 }
 
