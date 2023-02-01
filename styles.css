@@ -162,7 +162,7 @@ section#first .first-container .carousel-button:focus {
 }
 
 section#first .first-container .carousel-button:focus {
-    outline: 1px solid black;
+    outline: 1px solid white;
 }
 
 section#first .first-container .carousel-button.previous {
