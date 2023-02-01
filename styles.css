@@ -159,6 +159,7 @@ section#first .first-container .carousel-button:hover,
 section#first .first-container .carousel-button:focus {
     color: white;
     background: rgba(0, 0, 0, .2);
+    outline: 1px solid white;
 }
 
 section#first .first-container .carousel-button:focus {
