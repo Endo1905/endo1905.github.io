@@ -12,6 +12,8 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    background-color: #131316;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -89,7 +91,7 @@ section#first .first-container .carousel {
     /* border: 2px solid pink; */
 }
 
-@media (max-width: 1190px) {
+@media (max-width: 1290px) {
     section#first .first-container {
         /* border: 2px solid green; */
         width: 100vw;
@@ -233,9 +235,10 @@ section#third .third-container .third-content {
     display: flex;
     /* justify-content: center; */
     align-items: center;
+    margin-bottom: .5em;
 }
 
-@media (max-width: 1190px) {
+@media (max-width: 1290px) {
     section#third .third-container {
         /* border: 3px solid green; */
         width: 100vw;
@@ -331,4 +334,36 @@ section#third .section-third-end svg {
 
 section#third .section-third-end .shape-fill {
     fill: #131316;
+}
+
+::-webkit-scrollbar
+{
+    width: 1.3em;
+}
+
+::-webkit-scrollbar-track
+{
+    /* background: #333; */
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: #202025;
+    border-radius: 100vw;
+    border: .25em solid #131316;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+    background: #2b2b31;
+}
+
+@supports (scrollbar-color: red blue)
+{
+    * {
+        scrollbar-color: #202025 #2b2b31;
+        scrollbar-width: auto;
+    }
 }
