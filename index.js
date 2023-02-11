@@ -1,5 +1,5 @@
 var i = 0;
-var hello = "Cześć, miłego zwiedzania!";
+var hello = "Cześć, mam na imię Łukasz.";
 
 function typing() {
     if (i < hello.length) {
@@ -15,13 +15,13 @@ var text = document.getElementById("date");
 
 function time() {
     if (hours >= 3 && hours < 12) {
-        text.textContent = "Miłego dnia!"
+        text.textContent = "Miłego dnia :)"
     }
     else if (hours >= 12 && hours < 17) {
-        text.textContent = "Miłego popołudnia!"
+        text.textContent = "Miłego popołudnia :)"
     }
     else {
-        text.textContent = "...I przede wszystkim zasłużonego wypoczunku na wieczór! :)"
+        text.textContent = "Miłego wieczoru :)"
     }
 }
 time();
