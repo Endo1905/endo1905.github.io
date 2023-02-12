@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     overflow-x: hidden;
     background-color: #131316;
+    width: 100vw;
     /* background: white; */
 }
 
