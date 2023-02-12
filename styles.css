@@ -17,8 +17,18 @@ body {
     flex-direction: column;
     overflow-x: hidden;
     background-color: #131316;
-    width: 100vw;
+    max-width: 100vw;
     /* background: white; */
+}
+
+/* 
+    HEADER -> START
+*/
+
+body img 
+{
+    object-fit: cover;
+    object-position: center;
 }
 
 header {
@@ -41,6 +51,12 @@ header .header-panel2 {
     text-align: center;
 }
 
+/* 
+    HEADER -> END
+*/
+
+/* === === === === */
+
 section {
     position: relative;
     display: flex;
@@ -49,6 +65,10 @@ section {
     /* min-height: 60vh; */
     padding: 100px 20vw;
 }
+
+/* 
+    SECTION ID=FIRST -> START
+*/
 
 section#first .header-first {
     position: absolute;
@@ -104,7 +124,7 @@ section#first .first-container .carousel {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        font-size: 2rem;
+        /* font-size: 2rem; */
         padding: .5em;
         /* gap: 5%; */
     }
@@ -112,6 +132,7 @@ section#first .first-container .carousel {
     section#first .first-container .content {
         margin: 1.25em;
         width: 90%;
+        font-size: 2.3rem;
     }
 
     section#first .first-container .carousel {
@@ -187,6 +208,16 @@ section#first {
     background: linear-gradient(#3b037a, purple);
 }
 
+/* 
+    SECTION ID=FIRST -> END
+*/
+
+/* === === === === */
+
+
+/* 
+    SECTION ID=SECOND -> START
+*/
 section#second .section-first-end {
     position: absolute;
     top: 0px;
@@ -353,6 +384,15 @@ section#second .second-container .media ul li a span
     }
 }
 
+/* 
+    SECTION ID=SECOND -> END
+*/
+
+/* === === === === */
+
+/* 
+    SECTION ID=THIRD -> START
+*/
 section#third {
     background-image: linear-gradient(126.3deg, rgba(30, 2, 83, 1) 32.2%, rgba(198, 55, 160, 0.46) 109.2%);
     /* height: 100vh; */
@@ -382,7 +422,8 @@ section#third .third-container .svg-server
     width: 40%;
 }
 
-@media (max-width: 1290px) {
+@media (max-width: 1515px)
+{
     section#third .third-container {
         /* border: 3px solid green; */
         width: 100vw;
@@ -400,12 +441,12 @@ section#third .third-container .svg-server
         align-items: center;
         margin-top: 1em;
         margin-bottom: 1em;
+        font-size: 2.7rem;
     }
 
     section#third .third-container .svg-server
     {
         width: 90%;
-        font-size: 3rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -434,6 +475,9 @@ section#third .section-second-end .shape-fill {
     fill: #131316;
 }
 
+/* 
+    HIDDEN-ANIMATIONS-DASHING -> START
+*/
 
 .hidden {
     opacity: 0;
@@ -467,6 +511,10 @@ section#third .section-second-end .shape-fill {
     }
 }
 
+/* 
+    HIDDEN-ANIMATIONS-DASHING -> END
+*/
+
 section#third .section-third-end {
     position: absolute;
     bottom: 0;
@@ -486,6 +534,16 @@ section#third .section-third-end svg {
 section#third .section-third-end .shape-fill {
     fill: #131316;
 }
+
+/* 
+    SECTION ID=THIRD -> END
+*/
+
+/* === === === === */
+
+/* 
+    SECTION ID=FOURTH -> START
+*/
 
 section#fourth
 {
@@ -600,7 +658,16 @@ section#fourth .fourth-end .shape-fill {
     }
 }
 
+/* 
+    SECTION ID=FOURTH -> END
+*/
 
+/* === === === === */
+
+
+/* 
+    SCROLLBAR ANIMATIONS -> START
+*/
 ::-webkit-scrollbar {
     width: 1.3em;
 }
@@ -627,3 +694,7 @@ section#fourth .fourth-end .shape-fill {
         scrollbar-width: auto;
     }
 }
+
+/* 
+    SCROLLBAR ANIMATIONS -> END
+*/
