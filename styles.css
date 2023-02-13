@@ -7,6 +7,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -17,14 +18,9 @@ body {
     flex-direction: column;
     overflow-x: hidden;
     background-color: #131316;
-    max-width: 100vw;
+    max-width: 100%;
     /* background: white; */
 }
-
-/* body svg 
-{
-    border: 3px solid red;
-} */
 
 /* 
     HEADER -> START
@@ -247,7 +243,7 @@ section#second {
 section#second .second-container {
     display: flex;
     background: #131316;
-    width: 100vw;
+    width: 100%;
     justify-content: space-evenly;
     align-items: center;
     font-size: 2.5em;
@@ -472,7 +468,7 @@ section#third .section-second-end {
 section#third .section-second-end svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
+    width: calc(260% + 1.3px);
     height: 171px;
 }
 
@@ -527,12 +523,13 @@ section#third .section-third-end {
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    /* border: 3px solid red; */
 }
 
 section#third .section-third-end svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
+    width: calc(134% + 1.3px);
     height: 112px;
 }
 
@@ -568,7 +565,7 @@ section#fourth .section-fourth-start {
 section#fourth .section-fourth-start svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
+    width: calc(171% + 1.3px);
     height: 141px;
 }
 
@@ -625,7 +622,7 @@ section#fourth .fourth-end {
 section#fourth .fourth-end svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
+    width: calc(106% + 1.3px);
     height: 87px;
     transform: rotateY(180deg);
 }
