@@ -21,6 +21,11 @@ body {
     /* background: white; */
 }
 
+/* body svg 
+{
+    border: 3px solid red;
+} */
+
 /* 
     HEADER -> START
 */
@@ -467,7 +472,7 @@ section#third .section-second-end {
 section#third .section-second-end svg {
     position: relative;
     display: block;
-    width: calc(260% + 1.3px);
+    width: calc(100% + 1.3px);
     height: 171px;
 }
 
@@ -527,7 +532,7 @@ section#third .section-third-end {
 section#third .section-third-end svg {
     position: relative;
     display: block;
-    width: calc(134% + 1.3px);
+    width: calc(100% + 1.3px);
     height: 112px;
 }
 
@@ -563,7 +568,7 @@ section#fourth .section-fourth-start {
 section#fourth .section-fourth-start svg {
     position: relative;
     display: block;
-    width: calc(171% + 1.3px);
+    width: calc(100% + 1.3px);
     height: 141px;
 }
 
@@ -620,7 +625,7 @@ section#fourth .fourth-end {
 section#fourth .fourth-end svg {
     position: relative;
     display: block;
-    width: calc(106% + 1.3px);
+    width: calc(100% + 1.3px);
     height: 87px;
     transform: rotateY(180deg);
 }
