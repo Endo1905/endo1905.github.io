@@ -1,5 +1,5 @@
 var i = 0;
-var hello = "Cześć, mam na imię Łukasz.";
+var hello = "Cześć! Mam na imię Łukasz.";
 
 function typing() {
     if (i < hello.length) {
@@ -84,3 +84,23 @@ const observerTwo = new IntersectionObserver((entries) =>
 
 const hiddenElementsTwo = document.querySelectorAll('.hiddenTwo');
 hiddenElementsTwo.forEach((el) => observer.observe(el));
+
+var polish = document.getElementById("polish");
+var english = document.getElementById("english");
+var french = document.getElementById("french");
+var writtenLang = document.querySelector("#written-language");
+
+polish.onclick = () => 
+{
+    writtenLang.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat voluptatum libero quam quisquam nam minima ut ipsam alias autem amet, sed voluptatibus! Doloribus maiores ullam voluptates repellat, corporis, impedit enim vel architecto cum fugiat quidem delectus pariatur aperiam ea voluptatem. Sit facilis impedit commodi ea quis, reprehenderit voluptatibus incidunt hic. Quia nesciunt omnis et, eligendi minus molestias, suscipit minima illo corporis quos distinctio numquam quis cum in voluptatum possimus eveniet quaerat doloremque libero tempore sunt autem veritatis. Sapiente vel distinctio quia ullam aut error eos quo sit tempora numquam temporibus suscipit voluptatum, ex iusto vero unde corrupti animi eligendi Polish.";
+}
+
+english.onclick = () => 
+{
+    writtenLang.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat voluptatum libero quam quisquam nam minima ut ipsam alias autem amet, sed voluptatibus! Doloribus maiores ullam voluptates repellat, corporis, impedit enim vel architecto cum fugiat quidem delectus pariatur aperiam ea voluptatem. Sit facilis impedit commodi ea quis, reprehenderit voluptatibus incidunt hic. Quia nesciunt omnis et, eligendi minus molestias, suscipit minima illo corporis quos distinctio numquam quis cum in voluptatum possimus eveniet quaerat doloremque libero tempore sunt autem veritatis. Sapiente vel distinctio quia ullam aut error eos quo sit tempora numquam temporibus suscipit voluptatum, ex iusto vero unde corrupti animi eligendi English.";
+}
+
+french.onclick = () => 
+{
+    writtenLang.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat voluptatum libero quam quisquam nam minima ut ipsam alias autem amet, sed voluptatibus! Doloribus maiores ullam voluptates repellat, corporis, impedit enim vel architecto cum fugiat quidem delectus pariatur aperiam ea voluptatem. Sit facilis impedit commodi ea quis, reprehenderit voluptatibus incidunt hic. Quia nesciunt omnis et, eligendi minus molestias, suscipit minima illo corporis quos distinctio numquam quis cum in voluptatum possimus eveniet quaerat doloremque libero tempore sunt autem veritatis. Sapiente vel distinctio quia ullam aut error eos quo sit tempora numquam temporibus suscipit voluptatum, ex iusto vero unde corrupti animi eligendi Francais.";
+}
