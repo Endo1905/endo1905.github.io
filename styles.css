@@ -110,6 +110,11 @@ section#first .first-container .languages > div
 }
 
 @media (max-width: 1290px) {
+    html
+    {
+        overflow-x: hidden;
+    }
+    
     section#first .first-container {
         /* border: 2px solid green; */
         width: 100vw;
@@ -213,7 +218,8 @@ section#first .first-container .carousel-button.next {
 }
 
 section#first {
-    background: linear-gradient(#3b037a, purple);
+    /* background: linear-gradient(#3b037a, purple); */
+    background: linear-gradient(90deg, #050872, #010969, #000a60, #000b58, #000a4f, #010946, #04063d, #070335);
     width: 100%;
     /* border: 3px solid green; */
     padding-bottom: 1em;
@@ -247,7 +253,7 @@ section#second .section-first-end svg {
 }
 
 section#second .section-first-end .shape-fill {
-    fill: purple;
+    fill: url(#grad1);
 }
 
 section#second {
@@ -387,6 +393,11 @@ section#second .second-container .media ul li a span
 
 @media (max-width: 820px)
 {
+    html
+    {
+        overflow-x: hidden;
+    }
+    
     section#second .second-container
     {
         display: flex;
@@ -626,6 +637,11 @@ section#fourth
 
 @media (max-width: 1290px)
 {
+    html
+    {
+        overflow-x: hidden;
+    }
+    
     section#fourth .fourth-containers-for-containers .fourth-container
     {
         /* border: 3px solid green; */
@@ -687,7 +703,7 @@ section#fourth .fourth-containers-for-containers::-webkit-scrollbar-track
 
 section#fifth
 {
-    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    background-image: linear-gradient(rgba(5,8,114,1), rgba(7,3,53,1));
     width: 100vw;
 }
 
