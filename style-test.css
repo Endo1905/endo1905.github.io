@@ -1,0 +1,29 @@
+body 
+{
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#test
+{
+    width: 20rem;
+    height: 20rem;
+    background: rgb(0, 132, 255);
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+#test > div 
+{
+    min-width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    color: black;
+    scroll-snap-align: center;
+}

@@ -16,7 +16,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background-color: #131316;
     max-width: 100%;
     /* background: white; */
@@ -57,7 +57,6 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* min-height: 60vh; */
     padding: 100px 20vw;
 }
 
@@ -142,6 +141,13 @@ section#first .first-container .languages > div
         align-items: center;
         justify-content: space-around;
         width: 100%;
+        /* border: 3px solid red; */
+    }
+
+    section#first .first-container .languages > div img 
+    {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -247,7 +253,6 @@ section#second .section-first-end .shape-fill {
 section#second {
     background: #131316;
     color: white;
-    /* height: 60vh; */
 }
 
 section#second .second-container {
@@ -400,7 +405,6 @@ section#second .second-container .media ul li a span
 */
 section#third {
     background-image: linear-gradient(126.3deg, rgba(30, 2, 83, 1) 32.2%, rgba(198, 55, 160, 0.46) 109.2%);
-    /* height: 100vh; */
     /* border: 3px solid yellow; */
 }
 
@@ -559,8 +563,9 @@ section#third .section-third-end .shape-fill {
 
 section#fourth
 {
-    /* height: 60vh; */
     background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
+    /* border: 3px solid yellow; */
+    padding-bottom: 0;
 }
 
 section#fourth .section-fourth-start {
@@ -583,10 +588,9 @@ section#fourth .section-fourth-start .shape-fill {
     fill: #131316;
 }
 
-section#fourth .fourth-container
+section#fourth .fourth-containers-for-containers .fourth-container
 {
     width: 100vw;
-    height: 100%;
     display: flex;
     justify-content: space-around;
     font-size: 2rem;
@@ -594,7 +598,7 @@ section#fourth .fourth-container
     gap: 5%;
 }
 
-section#fourth .fourth-container .fourth-content {
+section#fourth .fourth-containers-for-containers .fourth-container .fourth-content {
     width: 45%;
     font-size: 3rem;
     display: flex;
@@ -602,13 +606,13 @@ section#fourth .fourth-container .fourth-content {
     margin-bottom: .5em;
 }
 
-section#fourth .fourth-container .hobby 
+section#fourth .fourth-containers-for-containers .fourth-container .hobby 
 {
     width: 40%;
     /* border: 3px solid red; */
 }
 
-section#fourth .fourth-container .hobby img 
+section#fourth .fourth-containers-for-containers .fourth-container .hobby img 
 {
     width: 100%;
     height: 100%;
@@ -620,30 +624,9 @@ section#fourth
     width: 100vw;
 }
 
-section#fourth .fourth-end {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-section#fourth .fourth-end svg {
-    position: relative;
-    display: block;
-    width: calc(106% + 1.3px);
-    height: 87px;
-    transform: rotateY(180deg);
-}
-
-section#fourth .fourth-end .shape-fill {
-    fill: #131316;
-} 
-
 @media (max-width: 1290px)
 {
-    section#fourth .fourth-container
+    section#fourth .fourth-containers-for-containers .fourth-container
     {
         /* border: 3px solid green; */
         width: 100vw;
@@ -653,7 +636,7 @@ section#fourth .fourth-end .shape-fill {
         align-items: center;
     }
 
-    section#fourth .fourth-container .fourth-content 
+    section#fourth .fourth-containers-for-containers .fourth-container .fourth-content 
     {
         width: 90%;
         font-size: 2.5rem;
@@ -664,7 +647,7 @@ section#fourth .fourth-end .shape-fill {
         margin-bottom: 1em;
     }
 
-    section#fourth .fourth-container .hobby 
+    section#fourth .fourth-containers-for-containers .fourth-container .hobby 
     {
         width: 90%;
         font-size: 2.3rem;
@@ -675,6 +658,65 @@ section#fourth .fourth-end .shape-fill {
         margin-bottom: 1em;
     }
 }
+
+section#fourth .fourth-containers-for-containers
+{
+    width: 100vw;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+section#fourth .fourth-containers-for-containers > div 
+{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    scroll-snap-align: center;
+}
+
+section#fourth .fourth-containers-for-containers::-webkit-scrollbar-track
+{
+    background: #131316;
+    border-radius: 0;
+}
+
+/* SECTION #FIFTH ->  START*/
+
+section#fifth
+{
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    width: 100vw;
+}
+
+/* SECTION #FIFTH ->  END*/
+
+.section-fourth-end {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.section-fourth-end svg {
+    position: relative;
+    display: block;
+    width: calc(142% + 1.3px);
+    height: 161px;
+}
+
+.section-fourth-end .shape-fill {
+    fill: #131316;
+}
+
+
+
+
 
 /* 
     SECTION ID=FOURTH -> END
