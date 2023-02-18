@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     /* overflow-x: hidden; */
     background-color: #131316;
-    max-width: 100%;
+    max-width: 100vw;
     /* background: white; */
 }
 
@@ -574,9 +574,10 @@ section#third .section-third-end .shape-fill {
 
 section#fourth
 {
-    background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
+    /* background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% ); */
     /* border: 3px solid yellow; */
     padding-bottom: 0;
+    padding-top: 0;
 }
 
 section#fourth .section-fourth-start {
@@ -608,6 +609,22 @@ section#fourth .fourth-containers-for-containers .fourth-container
     margin-top: .35em;
     gap: 5%;
 }
+
+section#fourth .fourth-containers-for-containers .firstHabit 
+{
+    background: linear-gradient(90deg, rgba(54,12,64,1) 38%, rgba(0,0,0,1) 87%);
+}
+
+section#fourth .fourth-containers-for-containers .secondHabit 
+{
+    background-image: linear-gradient(90deg, #000000, #044C3C, #000000);
+}
+
+section#fourth .fourth-containers-for-containers .thirdHabit 
+{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 4%, rgba(1,36,61,1) 44%);
+}
+
 
 section#fourth .fourth-containers-for-containers .fourth-container .fourth-content {
     width: 45%;
