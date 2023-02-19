@@ -892,3 +892,14 @@ footer
 /* 
     SCROLLBAR ANIMATIONS -> END
 */
+
+@media screen {
+    html
+    {
+        overflow-x: hidden;
+    }
+    body 
+    {
+        overflow-x: hidden;
+    }
+}
