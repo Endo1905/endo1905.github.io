@@ -780,6 +780,22 @@ section#fifth .fifth-container .fifth-content {
     margin-bottom: .5em;
 }
 
+section#fifth .fifth-container .fifth-content ul 
+{
+    list-style: "\1F525";
+    line-height: 4.7rem;
+    transition: 1s;
+}
+
+section#fifth .fifth-container .fifth-content ul li > *:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+
+
 section#fifth .fifth-container .changing-images
 {
     width: 40%;
@@ -791,6 +807,11 @@ section#fifth .fifth-container .changing-images img
     width: 100%;
     height: 100%;
 }
+
+/* @keyframes image-changing-in-and-out
+{
+    
+} */
 
 @media (max-width: 1515px)
 {
@@ -827,7 +848,16 @@ section#fifth .fifth-container .changing-images img
 
 /* SECTION #FIFTH ->  END*/
 
-
+footer 
+{
+    width: 100%;
+    font-size: 2rem;
+    font-style: italic;
+    background: #131316;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* 
     SCROLLBAR ANIMATIONS -> START
