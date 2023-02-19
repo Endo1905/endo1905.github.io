@@ -22,6 +22,15 @@ body {
     /* background: white; */
 }
 
+body img {
+    /* user-drag: none; */
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
 /* 
     HEADER -> START
 */
@@ -587,6 +596,7 @@ section#fourth .section-fourth-start {
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    z-index: 1;
 }
 
 section#fourth .section-fourth-start svg {
@@ -602,7 +612,6 @@ section#fourth .section-fourth-start .shape-fill {
 
 section#fourth .fourth-containers-for-containers .fourth-container
 {
-    width: 100vw;
     display: flex;
     justify-content: space-around;
     font-size: 2rem;
@@ -627,6 +636,7 @@ section#fourth .fourth-containers-for-containers .thirdHabit
 
 
 section#fourth .fourth-containers-for-containers .fourth-container .fourth-content {
+    padding-top: 2.5rem;
     width: 45%;
     font-size: 3rem;
     display: flex;
@@ -653,12 +663,7 @@ section#fourth
 }
 
 @media (max-width: 1290px)
-{
-    html
-    {
-        overflow-x: hidden;
-    }
-    
+{   
     section#fourth .fourth-containers-for-containers .fourth-container
     {
         /* border: 3px solid green; */
@@ -683,6 +688,7 @@ section#fourth
     section#fourth .fourth-containers-for-containers .fourth-container .hobby 
     {
         width: 90%;
+        height: 45%;
         font-size: 2.3rem;
         display: flex;
         justify-content: center;
