@@ -764,6 +764,7 @@ section#fourth .fourth-containers-for-containers::-webkit-scrollbar-thumb
 section#fifth
 {
     background-image: linear-gradient(rgba(5,8,114,1), rgba(7,3,53,1));
+    /* height: 100vh; */
 }
 
 section#fifth .fifth-container {
@@ -803,7 +804,7 @@ section#fifth .fifth-container .fifth-content ul li
 section#fifth .fifth-container .fifth-content ul li > *:hover
 {
     cursor: pointer;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     transition: 1s;
 }
 
