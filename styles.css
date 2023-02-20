@@ -228,7 +228,8 @@ section#first .first-container .carousel-button.next {
 
 section#first {
     /* background: linear-gradient(#3b037a, purple); */
-    background: linear-gradient(90deg, #050872, #010969, #000a60, #000b58, #000a4f, #010946, #04063d, #070335);
+    /* background: linear-gradient(90deg, #050872, #010969, #000a60, #000b58, #000a4f, #010946, #04063d, #070335); */
+    background-image: linear-gradient(deg,  rgba(68,17,28,1) 17.4%, rgba(95,24,40,1) 34.7%, rgba(122,31,51,1) 51.8%, rgba(149,38,62,1) 67.4%, rgba(163,41,68,1) 89.6% );
     width: 100%;
     /* border: 3px solid green; */
     padding-bottom: 1em;
