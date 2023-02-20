@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,32 @@
     <title>Document</title>
     <link rel="stylesheet" href="style-test.css">
 </head>
+
 <body>
     <div id="test">
-        <div class="one">1</div>
-        <div class="two">2</div>
-        <div class="three">3</div>
-        <div class="four">4</div>
+        <img id="obrazek" src="/images/ja.jpg" alt="">
+    </div>
+    <div id="btn">
+        <button id="guzior">Przesun delikwenta</button>
     </div>
 </body>
+<script>
+    console.log("XD");
+
+    let img = document.getElementById("obrazek");
+    let btn = document.getElementById("guzior");
+
+    function slide() {
+        btn.addEventListener("mouseover", () => {
+            img.style.transform = "translateX(-100%)";
+        });
+
+        btn.addEventListener("mouseout", () => {
+            img.style.transform = "translateX(0%)";
+        });
+    }
+
+    slide();
+</script>
+
 </html>
