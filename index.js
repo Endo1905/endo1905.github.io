@@ -230,8 +230,6 @@ function slide()
         }
 
         setTimeout(goRight, 700);
-
-
     });
 }
 
