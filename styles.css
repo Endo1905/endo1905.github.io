@@ -461,7 +461,14 @@ section#third .third-container .third-content {
     font-size: 3rem;
     display: flex;
     align-items: center;
-    margin-bottom: .5em;
+    margin-bottom: 1em;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: .5em;
 }
 
 section#third .third-container .svg-server
@@ -673,6 +680,13 @@ section#fourth .fourth-containers-for-containers .fourth-container .fourth-conte
     display: flex;
     align-items: center;
     margin-bottom: .5em;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: .5em;
 }
 
 section#fourth .fourth-containers-for-containers .fourth-container .hobby 
@@ -821,18 +835,25 @@ section#fifth .fifth-container .fifth-content {
     align-items: center;
     justify-content: center;
     transition: 1s;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: .5rem;
     /* border: 3px solid yellow; */
 }
 
 section#fifth .fifth-container .fifth-content ul 
 {
     list-style: "\1F525";
-    transition: 1s;
+    /* transition: 1s; */
 }
 
 section#fifth .fifth-container .fifth-content ul li 
 {
-    margin-bottom: 1.2em;
+    margin-bottom: 2em;
 }
 
 section#fifth .fifth-container .fifth-content ul li > *:hover
@@ -888,17 +909,113 @@ section#fifth .fifth-container .changing-images img
     }
 }
 
+.section-fifth-end {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.section-fifth-end svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 275px;
+}
+
+.section-fifth-end .shape-fill {
+    fill: #131316;
+}
+
 /* SECTION #FIFTH ->  END*/
+
+/* SECTION #SIXTH ->  START*/
+
+section#sixth
+{
+    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
+}
+
+section#sixth .section-sixth-start {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+section#sixth .section-sixth-start svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 132px;
+}
+
+section#sixth .section-sixth-start {
+    fill: #131316;
+}
+
+section#sixth .sixth-container
+{
+    width: 100vw;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    margin-top: 2em;
+    /* border: 3px solid green; */
+}
+
+section#sixth .sixth-container > div 
+{
+    width: 40%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 1em;
+}
+
+.custom-shape-divider-bottom-1677087920 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1677087920 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-bottom-1677087920 .shape-fill {
+    fill: #131316;
+}
+
+
+
+/* SECTION #SIXTH ->  END*/
 
 footer 
 {
     width: 100%;
-    font-size: 2rem;
+    font-size: 1rem;
     font-style: italic;
     background: #131316;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1em;
 }
 
 /* 
