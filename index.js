@@ -105,132 +105,130 @@ french.onclick = () =>
     writtenLang.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat voluptatum libero quam quisquam nam minima ut ipsam alias autem amet, sed voluptatibus! Doloribus maiores ullam voluptates repellat, corporis, impedit enim vel architecto cum fugiat quidem delectus pariatur aperiam ea voluptatem. Sit facilis impedit commodi ea quis, reprehenderit voluptatibus incidunt hic. Quia nesciunt omnis et, eligendi minus molestias, suscipit minima illo corporis quos distinctio numquam quis cum in voluptatum possimus eveniet quaerat doloremque libero tempore sunt autem veritatis. Sapiente vel distinctio quia ullam aut error eos quo sit tempora numquam temporibus suscipit voluptatum, ex iusto vero unde corrupti animi eligendi Francais.";
 }
 
-// function slide()
-// {
-//     var imageSwap = document.getElementById("imageSwap");
+function slide()
+{
+    var swapingContent = document.querySelector(".changing-content");
 
-//     document.querySelector(".fifth-content-list").children[0].addEventListener("click", () => 
-//     {
-//         function goLeft()
-//         {
-//             imageSwap.style.transform = "translateX(-350%)";
-//         }
-//         setTimeout(goLeft, 100);
+    document.querySelector(".fifth-content-list").children[0].addEventListener("click", () => 
+    {
+        console.log("XD");
+        function goLeft()
+        {
+            swapingContent.style.transform = "translateX(-350%)";
+        }
+        
+        setTimeout(goLeft, 100);
+        
+        function changeContent()
+        {
+            swapingContent.textContent = "Helpdeskuwka";
+        }
 
-//         function changeImage()
-//         {
-//             imageSwap.src = "/svgs/helpdesk.svg";
-//         }
+        setTimeout(changeContent, 250)
 
-//         setTimeout(changeImage, 600);
+        function goRight()
+        {
+            swapingContent.style.transform = "translateX(0%)";
+        }
 
-//         function goRight()
-//         {
-//             imageSwap.style.transform = "translateX(0%)";
-//         }
+        setTimeout(goRight, 500);
+    })
+    document.querySelector(".fifth-content-list").children[1].addEventListener("click", () => 
+    {
+        console.log("XD");
+        function goLeft()
+        {
+            swapingContent.style.transform = "translateX(-350%)";
+        }
+        
+        setTimeout(goLeft, 100);
+        
+        function changeContent()
+        {
+            swapingContent.textContent = "A+";
+        }
 
-//         setTimeout(goRight, 700);
+        setTimeout(changeContent, 250)
 
+        function goRight()
+        {
+            swapingContent.style.transform = "translateX(0%)";
+        }
 
-//     });
-    
-//     document.querySelector(".fifth-content-list").children[1].addEventListener("click", () => 
-//     {
-//         function goLeft()
-//         {
-//             imageSwap.style.transform = "translateX(-350%)";
-//         }
-//         setTimeout(goLeft, 100);
+        setTimeout(goRight, 500);
+    })
+    document.querySelector(".fifth-content-list").children[2].addEventListener("click", () => 
+    {
+        console.log("XD");
+        function goLeft()
+        {
+            swapingContent.style.transform = "translateX(-350%)";
+        }
+        
+        setTimeout(goLeft, 100);
+        
+        function changeContent()
+        {
+            swapingContent.textContent = "Apache";
+        }
 
-//         function changeImage()
-//         {
-//             imageSwap.src = "/svgs/certificate2.svg";
-//         }
+        setTimeout(changeContent, 250)
 
-//         setTimeout(changeImage, 600);
+        function goRight()
+        {
+            swapingContent.style.transform = "translateX(0%)";
+        }
 
-//         function goRight()
-//         {
-//             imageSwap.style.transform = "translateX(0%)";
-//         }
+        setTimeout(goRight, 500);
+    })
+    document.querySelector(".fifth-content-list").children[3].addEventListener("click", () => 
+    {
+        console.log("XD");
+        function goLeft()
+        {
+            swapingContent.style.transform = "translateX(-350%)";
+        }
+        
+        setTimeout(goLeft, 100);
+        
+        function changeContent()
+        {
+            swapingContent.textContent = "Silka";
+        }
 
-//         setTimeout(goRight, 700);
+        setTimeout(changeContent, 250)
 
+        function goRight()
+        {
+            swapingContent.style.transform = "translateX(0%)";
+        }
 
-//     });
-    
-//     document.querySelector(".fifth-content-list").children[2].addEventListener("click", () => 
-//     {
-//         function goLeft()
-//         {
-//             imageSwap.style.transform = "translateX(-350%)";
-//         }
-//         setTimeout(goLeft, 100);
+        setTimeout(goRight, 500);
+    })
+    document.querySelector(".fifth-content-list").children[4].addEventListener("click", () => 
+    {
+        console.log("XD");
+        function goLeft()
+        {
+            swapingContent.style.transform = "translateX(-350%)";
+        }
+        
+        setTimeout(goLeft, 100);
+        
+        function changeContent()
+        {
+            swapingContent.textContent = "Francais";
+        }
 
-//         function changeImage()
-//         {
-//             imageSwap.src = "/svgs/cloud.svg";
-//         }
+        setTimeout(changeContent, 250)
 
-//         setTimeout(changeImage, 600);
+        function goRight()
+        {
+            swapingContent.style.transform = "translateX(0%)";
+        }
 
-//         function goRight()
-//         {
-//             imageSwap.style.transform = "translateX(0%)";
-//         }
+        setTimeout(goRight, 500);
+    })
+}
 
-//         setTimeout(goRight, 700);
-
-
-//     });
-    
-//     document.querySelector(".fifth-content-list").children[3].addEventListener("click", () => 
-//     {
-//         function goLeft()
-//         {
-//             imageSwap.style.transform = "translateX(-350%)";
-//         }
-//         setTimeout(goLeft, 100);
-
-//         function changeImage()
-//         {
-//             imageSwap.src = "/svgs/exercise.svg";
-//         }
-
-//         setTimeout(changeImage, 600);
-
-//         function goRight()
-//         {
-//             imageSwap.style.transform = "translateX(0%)";
-//         }
-
-//         setTimeout(goRight, 700);
-
-
-//     });
-    
-//     document.querySelector(".fifth-content-list").children[4].addEventListener("click", () => 
-//     {
-//         function goLeft()
-//         {
-//             imageSwap.style.transform = "translateX(-350%)";
-//         }
-//         setTimeout(goLeft, 100);
-
-//         function changeImage()
-//         {
-//             imageSwap.src = "/svgs/french.svg";
-//         }
-
-//         setTimeout(changeImage, 600);
-
-//         function goRight()
-//         {
-//             imageSwap.style.transform = "translateX(0%)";
-//         }
-
-//         setTimeout(goRight, 700);
-//     });
-// }
-
-// slide();
+slide();
