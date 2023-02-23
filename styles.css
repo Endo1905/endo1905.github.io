@@ -438,6 +438,7 @@ section#third .third-container .third-content {
     font-size: 3rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 1em;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
