@@ -10,30 +10,32 @@
 </head>
 
 <body>
-    <div id="test">
-        <img id="obrazek" src="/images/ja.jpg" alt="">
-    </div>
-    <div id="btn">
-        <button id="guzior">Przesun delikwenta</button>
-    </div>
+        <a href="#" style="--clr:#1e9bff">
+            <span>
+                Button
+            </span>
+            <i>
+                
+            </i>
+        </a>
+        
+        <a href="#" style="--clr:#6eff3e">
+            <span>
+                Button
+            </span>
+            <i>
+
+            </i>
+        </a>
+        
+        <a href="#" style="--clr:#ff1867">
+            <span>
+                Button
+            </span>
+            <i>
+                
+            </i>
+        </a>
 </body>
-<script>
-    console.log("XD");
-
-    let img = document.getElementById("obrazek");
-    let btn = document.getElementById("guzior");
-
-    function slide() {
-        btn.addEventListener("mouseover", () => {
-            img.style.transform = "translateX(-100%)";
-        });
-
-        btn.addEventListener("mouseout", () => {
-            img.style.transform = "translateX(0%)";
-        });
-    }
-
-    slide();
-</script>
 
 </html>
