@@ -1,5 +1,5 @@
 var i = 0;
-var hello = "Cześć! Mam na imię Łukasz.";
+var hello = "Cześć! Jestem Łukasz";
 
 function typing() {
     if (i < hello.length) {
@@ -106,7 +106,7 @@ var sixthSourcesLanguage = document.getElementById("section-sixth-sources-langua
 
 polish.onclick = () => {
     function hello() {
-        document.getElementById("hello").textContent = "Cześć! Mam na imię Łukasz";
+        document.getElementById("hello").textContent = "Cześć! Jestem Łukasz";
     }
 
     setTimeout(hello, 2500);
@@ -128,7 +128,7 @@ polish.onclick = () => {
     }
     time();
 
-    sectionFirstLanguage.textContent = "Polska gurom";
+    sectionFirstLanguage.textContent = "Jestem mieszkańcem Katowic, tak jednak nie od zawsze tutaj mieszkałem. Urodziłem się 5.02.2003 w Redhill, Anglia. Niewątpliwie, trzyletni pobyt w tym kraju jako dziecko wpłynął na moją umiejętność posługiwania się językiem angielskim, który mam opanowany na poziomie C1/C2 w chwili obecnej. Jestem osobą zdyscyplinowaną, która dąży do celu i która nie zna pojęcia 'poddaję się'. Analizę problemu zaczynam od zrozumienia, co jest przyczyną problemu, następnie niezwłocznie przechodzę do rozwiązania, które także staram się pojąć. Jestem osobą pełną energii, która pragnie rozwijać swoje pasje. Otwieram się na świat i jestem głodny doświadczenia, nauki oraz przygód. Drogi czytelniku, pragnę zaprosić Ciebie do zapoznania się z moją osobą lepiej poprzez przejrzenie tej strony internetowej, która jest moją wizytówką :)";
 
     sectionSecondLanguage.children[0].textContent = "O mnie";
     sectionSecondLanguage.children[1].textContent = "Moja przyszłość";

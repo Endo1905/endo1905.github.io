@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 * {
     font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
@@ -99,7 +99,7 @@ section#first .first-container {
     grid-template-columns: 1fr 2fr 1fr;
     /* border: 3px solid red; */
     width: 100vw;
-    padding: 2em;
+    padding: 1em;
     font-size: 2rem;
     gap: 1rem;
     /* padding: 0; */
@@ -1088,7 +1088,8 @@ section#sixth .sixth-container > div {
 footer {
     width: 100%;
     font-size: 1rem;
-    font-style: italic;
+    /* font-style: italic; */
+    font-family: 'Raleway', sans-serif;
     background: #131316;
     display: flex;
     justify-content: center;
