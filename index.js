@@ -88,21 +88,116 @@ hiddenElementsTwo.forEach((el) => observer.observe(el));
 var polish = document.getElementById("polish");
 var english = document.getElementById("english");
 var french = document.getElementById("french");
-var writtenLang = document.querySelector("#written-language");
+
+var sectionFirstLanguage = document.getElementById("section-first-language");
+
+var sectionSecondLanguage = document.getElementById("section-second-language");
+
+var sectionThirdLanguage = document.getElementById("section-third-language");
+
+var sectionFourthHabitOneLanguage = document.getElementById("section-fourth-habit-one-language");
+var sectionFourthHabitTwoLanguage = document.getElementById("section-fourth-habit-two-language");
+var sectionFourthHabitThreeLanguage = document.getElementById("section-fourth-habit-three-language");
+
+var sectionFifthContentLanguage = document.getElementById("section-fifth-content-language");
+
+var helpdeskLanguage = document.getElementById("helpdesk-language");
+var certLanguage = document.getElementById("cert-language");
+var cloudLanguage = document.getElementById("cloud-language");
+var looksLanguage = document.getElementById("looks-language");
+var frenchLanguage = document.getElementById("french-language");
+
+var sixthContentLanguage = document.getElementById("section-sixth-content-language");
+var sixthSourcesLanguage = document.getElementById("section-sixth-sources-language");
 
 polish.onclick = () => 
 {
-    writtenLang.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat voluptatum libero quam quisquam nam minima ut ipsam alias autem amet, sed voluptatibus! Doloribus maiores ullam voluptates repellat, corporis, impedit enim vel architecto cum fugiat quidem delectus pariatur aperiam ea voluptatem. Sit facilis impedit commodi ea quis, reprehenderit voluptatibus incidunt hic. Quia nesciunt omnis et, eligendi minus molestias, suscipit minima illo corporis quos distinctio numquam quis cum in voluptatum possimus eveniet quaerat doloremque libero tempore sunt autem veritatis. Sapiente vel distinctio quia ullam aut error eos quo sit tempora numquam temporibus suscipit voluptatum, ex iusto vero unde corrupti animi eligendi Polish.";
+    sectionFirstLanguage.textContent = "Polska gurom";
+    
+    sectionSecondLanguage.children[0].textContent = "O mnie";
+    sectionSecondLanguage.children[1].textContent = "Moja przyszłość";
+    sectionSecondLanguage.children[2].textContent = "Moje zainteresowania";
+    sectionSecondLanguage.children[3].textContent = "Cele na rok 2023";
+    sectionSecondLanguage.children[4].textContent = "O stronie";
+    sectionSecondLanguage.style.cursor = "pointer";
+
+    sectionThirdLanguage.textContent = "Administracja sieciami komputerowymi lub cyberbezpieczenstwo";
+
+    sectionFourthHabitOneLanguage.textContent = "Samodyscyplina wraz z samorozwojem";
+    
+    sectionFourthHabitTwoLanguage.textContent = "Sport - piłka nożna oraz ręczna";
+    
+    sectionFourthHabitThreeLanguage.textContent = "Gry komputerowe";
+
+    sectionFifthContentLanguage.textContent = "Śmiało kliknij w jeden z paneli znajdujących się obok ->";
+    helpdeskLanguage.textContent = "Praca jako helpdesk";
+    certLanguage.textContent = "Certyfikat";
+    cloudLanguage.textContent = "Chmura domowa + Apache2";
+    looksLanguage.textContent = "Sylwetka";
+    frenchLanguage.textContent = "Francuski";
+
+    sixthContentLanguage.textContent = "Info a propos strony";
+    sixthSourcesLanguage.textContent = "Źródła niektórych rzeczy na stronie";
 }
 
 english.onclick = () => 
 {
-    writtenLang.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat voluptatum libero quam quisquam nam minima ut ipsam alias autem amet, sed voluptatibus! Doloribus maiores ullam voluptates repellat, corporis, impedit enim vel architecto cum fugiat quidem delectus pariatur aperiam ea voluptatem. Sit facilis impedit commodi ea quis, reprehenderit voluptatibus incidunt hic. Quia nesciunt omnis et, eligendi minus molestias, suscipit minima illo corporis quos distinctio numquam quis cum in voluptatum possimus eveniet quaerat doloremque libero tempore sunt autem veritatis. Sapiente vel distinctio quia ullam aut error eos quo sit tempora numquam temporibus suscipit voluptatum, ex iusto vero unde corrupti animi eligendi English.";
+    sectionFirstLanguage.textContent = "C'MON ENGLAND";
+
+    sectionSecondLanguage.children[0].textContent = "About me";
+    sectionSecondLanguage.children[1].textContent = "My future";
+    sectionSecondLanguage.children[2].textContent = "My hobbies";
+    sectionSecondLanguage.children[3].textContent = "Expectations towards 2023";
+    sectionSecondLanguage.children[4].textContent = "About site";
+    sectionSecondLanguage.style.cursor = "pointer";
+
+    sectionThirdLanguage.textContent = "Network engineering or cybersecurity";
+
+    sectionFourthHabitOneLanguage.textContent = "Self-discipline with self-improvement";
+
+    sectionFourthHabitTwoLanguage.textContent = "Sport - football and handball";
+    
+    sectionFourthHabitThreeLanguage.textContent = "Computer games";
+
+    sectionFifthContentLanguage.textContent = "Please do not hesitate to press any button which is located on the second pannel!"
+    helpdeskLanguage.textContent = "IT Support Job";
+    certLanguage.textContent = "Certificates";
+    cloudLanguage.textContent = "Home-cloud + Apache";
+    looksLanguage.textContent = "Silhouette improvement";
+    frenchLanguage.textContent = "French language";
+
+    sixthContentLanguage.textContent = "Some info abour website";
+    sixthSourcesLanguage.textContent = "Sources from where I got some of the animations";
 }
 
 french.onclick = () => 
 {
-    writtenLang.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat voluptatum libero quam quisquam nam minima ut ipsam alias autem amet, sed voluptatibus! Doloribus maiores ullam voluptates repellat, corporis, impedit enim vel architecto cum fugiat quidem delectus pariatur aperiam ea voluptatem. Sit facilis impedit commodi ea quis, reprehenderit voluptatibus incidunt hic. Quia nesciunt omnis et, eligendi minus molestias, suscipit minima illo corporis quos distinctio numquam quis cum in voluptatum possimus eveniet quaerat doloremque libero tempore sunt autem veritatis. Sapiente vel distinctio quia ullam aut error eos quo sit tempora numquam temporibus suscipit voluptatum, ex iusto vero unde corrupti animi eligendi Francais.";
+    sectionFirstLanguage.textContent = "FRANCAIS";
+
+    sectionSecondLanguage.children[0].textContent = "Moi";
+    sectionSecondLanguage.children[1].textContent = "Mon avenir";
+    sectionSecondLanguage.children[2].textContent = "Mes loisirs";
+    sectionSecondLanguage.children[3].textContent = "Mes attentes vers 2023";
+    sectionSecondLanguage.children[4].textContent = "Ce site";
+    sectionSecondLanguage.style.cursor = "pointer";
+
+    sectionThirdLanguage.textContent = "Ingénierie réseau ou cybersécurité";
+
+    sectionFourthHabitOneLanguage.textContent = "Je suis désolé, mais mon français n'est pas très bon. Je propose de changer de langue.";
+
+    sectionFourthHabitTwoLanguage.textContent = "Sport - football et handball";
+    
+    sectionFourthHabitThreeLanguage.textContent = "Joueurs d'ordinateurs";
+
+    sectionFifthContentLanguage.textContent = "Je suis désolé, mais mon français n'est pas très bon. Je propose de changer de langue."
+    helpdeskLanguage.textContent = "Bureau d'aide";
+    certLanguage.textContent = "Certificats";
+    cloudLanguage.textContent = "Home-cloud + Apache";
+    looksLanguage.textContent = "Amélioration de sollhouete";
+    frenchLanguage.textContent = "Le francais";
+
+    sixthContentLanguage.textContent = "Informations sur ce site";
+    sixthSourcesLanguage.textContent = "Sources d'où j'ai obtenu certaines des animations";
 }
 
 function slide()
