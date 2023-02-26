@@ -130,11 +130,11 @@ polish.onclick = () => {
 
     sectionFirstLanguage.textContent = "Jestem mieszkańcem Katowic, tak jednak nie od zawsze tutaj mieszkałem. Urodziłem się 5.02.2003 w Redhill, Anglia. Niewątpliwie, trzyletni pobyt w tym kraju jako dziecko wpłynął na moją umiejętność posługiwania się językiem angielskim, który mam opanowany na poziomie C1/C2 w chwili obecnej. Jestem osobą zdyscyplinowaną, która dąży do celu i która nie zna pojęcia 'poddaję się'. Analizę problemu zaczynam od zrozumienia, co jest przyczyną problemu, następnie niezwłocznie przechodzę do rozwiązania, które także staram się pojąć. Jestem osobą pełną energii, która pragnie rozwijać swoje pasje. Otwieram się na świat i jestem głodny doświadczenia, nauki oraz przygód. Drogi czytelniku, pragnę zaprosić Ciebie do zapoznania się z moją osobą lepiej poprzez przejrzenie tej strony internetowej, która jest moją wizytówką :)";
 
-    sectionSecondLanguage.children[0].textContent = "O mnie";
-    sectionSecondLanguage.children[1].textContent = "Moja przyszłość";
-    sectionSecondLanguage.children[2].textContent = "Moje zainteresowania";
-    sectionSecondLanguage.children[3].textContent = "Cele na rok 2023";
-    sectionSecondLanguage.children[4].textContent = "O stronie";
+    sectionSecondLanguage.children[0].children[0].textContent = "O mnie";
+    sectionSecondLanguage.children[1].children[0].textContent = "Moja przyszłość";
+    sectionSecondLanguage.children[2].children[0].textContent = "Moje zainteresowania";
+    sectionSecondLanguage.children[3].children[0].textContent = "Cele na rok 2023";
+    sectionSecondLanguage.children[4].children[0].textContent = "O stronie";
     sectionSecondLanguage.style.cursor = "pointer";
 
     sectionThirdLanguage.textContent = "Administracja sieciami komputerowymi lub cyberbezpieczenstwo";
@@ -182,11 +182,11 @@ english.onclick = () => {
 
     sectionFirstLanguage.textContent = "C'MON ENGLAND";
 
-    sectionSecondLanguage.children[0].textContent = "About me";
-    sectionSecondLanguage.children[1].textContent = "My future";
-    sectionSecondLanguage.children[2].textContent = "My hobbies";
-    sectionSecondLanguage.children[3].textContent = "Expectations towards 2023";
-    sectionSecondLanguage.children[4].textContent = "About site";
+    sectionSecondLanguage.children[0].children[0].textContent = "About me";
+    sectionSecondLanguage.children[1].children[0].textContent = "My future";
+    sectionSecondLanguage.children[2].children[0].textContent = "My hobbies";
+    sectionSecondLanguage.children[3].children[0].textContent = "Expectations towards 2023";
+    sectionSecondLanguage.children[4].children[0].textContent = "About site";
     sectionSecondLanguage.style.cursor = "pointer";
 
     sectionThirdLanguage.textContent = "Network engineering or cybersecurity";
@@ -230,11 +230,11 @@ french.onclick = () => {
 
     sectionFirstLanguage.textContent = "FRANCAIS";
 
-    sectionSecondLanguage.children[0].textContent = "Moi";
-    sectionSecondLanguage.children[1].textContent = "Mon avenir";
-    sectionSecondLanguage.children[2].textContent = "Mes loisirs";
-    sectionSecondLanguage.children[3].textContent = "Mes attentes vers 2023";
-    sectionSecondLanguage.children[4].textContent = "Ce site";
+    sectionSecondLanguage.children[0].children[0].textContent = "Moi";
+    sectionSecondLanguage.children[1].children[0].textContent = "Mon avenir";
+    sectionSecondLanguage.children[2].children[0].textContent = "Mes loisirs";
+    sectionSecondLanguage.children[3].children[0].textContent = "Mes attentes vers 2023";
+    sectionSecondLanguage.children[4].children[0].textContent = "Ce site";
     sectionSecondLanguage.style.cursor = "pointer";
 
     sectionThirdLanguage.textContent = "Ingénierie réseau ou cybersécurité";

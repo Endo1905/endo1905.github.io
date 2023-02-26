@@ -628,7 +628,7 @@ section#fourth .fourth-containers-for-containers .fourth-container {
 }
 
 section#fourth .fourth-containers-for-containers .firstHabit {
-    background: linear-gradient(90deg, rgba(54, 12, 64, 1) 38%, rgba(0, 0, 0, 1) 87%);
+    background-image: linear-gradient(to right, #000000, #1f0a12, #320e1f, #470d2f, #5c0a41, #5c0a41, #5c0a41, #5c0a41, #470d2f, #320e1f, #1f0a12, #000000);
 }
 
 section#fourth .fourth-containers-for-containers .secondHabit {
@@ -636,7 +636,15 @@ section#fourth .fourth-containers-for-containers .secondHabit {
 }
 
 section#fourth .fourth-containers-for-containers .thirdHabit {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 4%, rgba(1, 36, 61, 1) 44%);
+    background-image: linear-gradient(to right, #000000, #0f060b, #170d16, #191321, #17192c, #17192c, #17192c, #17192c, #191321, #170d16, #0f060b, #000000);
+}
+
+section#fourth .fourth-containers-for-containers .fourthHabit {
+    background-image: linear-gradient(to right, #000000, #1f1011, #351a15, #472714, #55370f, #55370f, #55370f, #55370f, #472714, #351a15, #1f1011, #000000);
+}
+
+section#fourth .fourth-containers-for-containers .fifthHabit {
+    background-image: linear-gradient(to right, #000000, #24141a, #411f2f, #5e2a47, #7c3764, #7c3764, #7c3764, #7c3764, #5e2a47, #411f2f, #24141a, #000000);
 }
 
 
