@@ -92,6 +92,8 @@ var sectionThirdLanguage = document.getElementById("section-third-language");
 var sectionFourthHabitOneLanguage = document.getElementById("section-fourth-habit-one-language");
 var sectionFourthHabitTwoLanguage = document.getElementById("section-fourth-habit-two-language");
 var sectionFourthHabitThreeLanguage = document.getElementById("section-fourth-habit-three-language");
+var sectionFourthHabitFourLanguage = document.getElementById("section-fourth-habit-four-language");
+var sectionFourthHabitFiveLanguage = document.getElementById("section-fourth-habit-five-language");
 
 var sectionFifthContentLanguage = document.getElementById("section-fifth-content-language");
 
@@ -145,6 +147,10 @@ polish.onclick = () => {
 
     sectionFourthHabitThreeLanguage.textContent = "Gry komputerowe";
 
+    sectionFourthHabitFourLanguage.textContent = "Frontend";
+
+    sectionFourthHabitFiveLanguage.textContent = "Muzyka";
+
     sectionFifthContentLanguage.textContent = "Śmiało kliknij w jeden z paneli znajdujących się obok ->";
     helpdeskLanguage.textContent = "Praca jako helpdesk";
     certLanguage.textContent = "Certyfikat";
@@ -197,6 +203,10 @@ english.onclick = () => {
 
     sectionFourthHabitThreeLanguage.textContent = "Computer games";
 
+    sectionFourthHabitFourLanguage.textContent = "Frontend";
+
+    sectionFourthHabitFiveLanguage.textContent = "Movies and reading";
+
     sectionFifthContentLanguage.textContent = "Please do not hesitate to press any button which is located on the second pannel ->"
     helpdeskLanguage.textContent = "IT Support Job";
     certLanguage.textContent = "Certificates";
@@ -244,6 +254,10 @@ french.onclick = () => {
     sectionFourthHabitTwoLanguage.textContent = "Sport - football et handball";
 
     sectionFourthHabitThreeLanguage.textContent = "Joueurs d'ordinateurs";
+
+    sectionFourthHabitFourLanguage.textContent = "Frontend";
+
+    sectionFourthHabitFiveLanguage.textContent = "Les films et livres";
 
     sectionFifthContentLanguage.textContent = "Je suis désolé, mais mon français n'est pas très bon. Je propose de changer de langue."
     helpdeskLanguage.textContent = "Bureau d'aide";
