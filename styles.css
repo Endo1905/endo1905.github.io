@@ -435,7 +435,7 @@ section#third .third-container {
 
 section#third .third-container .third-content {
     width: 45%;
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -622,7 +622,7 @@ section#fourth .fourth-containers-for-containers {
 section#fourth .fourth-containers-for-containers .fourth-container {
     display: flex;
     justify-content: space-around;
-    font-size: 2rem;
+    font-size: 1em;
     /* margin-top: 2em; */
     gap: 5%;
 }
@@ -651,10 +651,11 @@ section#fourth .fourth-containers-for-containers .fifthHabit {
 section#fourth .fourth-containers-for-containers .fourth-container .fourth-content {
     padding-top: 2.5rem;
     width: 45%;
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     margin-bottom: .5em;
+    margin-top: 1em;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
