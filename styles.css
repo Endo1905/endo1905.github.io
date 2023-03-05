@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
 * {
     font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
@@ -665,6 +666,16 @@ section#fourth .fourth-containers-for-containers .fourth-container .fourth-conte
     padding: .5em;
 }
 
+section#fourth .fourth-containers-for-containers .fourth-container .fourth-content span#section-fourth-habit-three-language ol {
+    list-style-type: repeating-emoji;
+}
+
+@counter-style repeating-emoji {
+    system: cyclic;
+    symbols: "\1F3F9" "\1F480" "\1F52B"; 
+    suffix: " ";
+}
+
 section#fourth .fourth-containers-for-containers .fourth-container .hobby {
     width: 40%;
     /* border: 3px solid red; */
@@ -776,13 +787,11 @@ section#fourth .fourth-containers-for-containers::-webkit-scrollbar-thumb {
 
 /* SECTION #FIFTH ->  START*/
 
-section#fifth
-{
+section#fifth {
     background: linear-gradient(111.1deg, rgb(0, 40, 70) -4.8%, rgb(255, 115, 115) 82.7%, rgb(255, 175, 123) 97.2%);
 }
 
-section#fifth .fifth-container
-{
+section#fifth .fifth-container {
     width: 100vw;
     /* height: 100%; */
     display: flex;
@@ -798,8 +807,7 @@ section#fifth .fifth-container
     min-height: 100%;
 } */
 
-section#fifth .fifth-container .fifth-content-list
-{
+section#fifth .fifth-container .fifth-content-list {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -807,12 +815,11 @@ section#fifth .fifth-container .fifth-content-list
     gap: 25px;
 }
 
-section#fifth .fifth-container .fifth-content-list > *
-{
+section#fifth .fifth-container .fifth-content-list>* {
     cursor: pointer;
 }
 
-section#fifth .fifth-container > div {
+section#fifth .fifth-container>div {
     width: 40%;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
@@ -823,8 +830,7 @@ section#fifth .fifth-container > div {
     padding: 1em;
 }
 
-section#fifth .fifth-container .fifth-content-list a 
-{
+section#fifth .fifth-container .fifth-content-list a {
     position: relative;
     background: white;
     color: white;
@@ -840,16 +846,14 @@ section#fifth .fifth-container .fifth-content-list a
     border-radius: 15px;
 }
 
-section#fifth .fifth-container .fifth-content-list a:hover
-{
+section#fifth .fifth-container .fifth-content-list a:hover {
     /* letter-spacing: .25em; */
     background: var(--clr);
     color: var(--clr);
     box-shadow: 0 0 35px var(--clr);
 }
 
-section#fifth .fifth-container .fifth-content-list a::before
-{
+section#fifth .fifth-container .fifth-content-list a::before {
     content: '';
     position: absolute;
     inset: 2px;
@@ -857,30 +861,26 @@ section#fifth .fifth-container .fifth-content-list a::before
     border-radius: 15px;
 }
 
-section#fifth .fifth-container .fifth-content-list .list-elements:hover
-{
+section#fifth .fifth-container .fifth-content-list .list-elements:hover {
     /* background: white;
     color: black;
     transition: .5s; */
     color: white;
 }
 
-section#fifth .fifth-container .fifth-content-list a span 
-{
+section#fifth .fifth-container .fifth-content-list a span {
     position: relative;
     z-index: 1;
 }
 
-section#fifth .fifth-container .fifth-content-list a i 
-{
+section#fifth .fifth-container .fifth-content-list a i {
     position: absolute;
     inset: 0;
     display: block;
     /* border: 3px solid yellow; */
 }
 
-section#fifth .fifth-container .fifth-content-list a i::before
-{
+section#fifth .fifth-container .fifth-content-list a i::before {
     content: '';
     position: absolute;
     top: 0;
@@ -892,14 +892,12 @@ section#fifth .fifth-container .fifth-content-list a i::before
     transition: .5s;
 }
 
-section#fifth .fifth-container .fifth-content-list a:hover i::before
-{
+section#fifth .fifth-container .fifth-content-list a:hover i::before {
     width: 20px;
     left: 20%;
 }
 
-section#fifth .fifth-container .fifth-content-list a i::after
-{
+section#fifth .fifth-container .fifth-content-list a i::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -911,8 +909,7 @@ section#fifth .fifth-container .fifth-content-list a i::after
     transition: .5s;
 }
 
-section#fifth .fifth-container .fifth-content-list a:hover i::after
-{
+section#fifth .fifth-container .fifth-content-list a:hover i::after {
     width: 20px;
     left: 80%;
 }
@@ -973,7 +970,7 @@ section#fifth .fifth-container .fifth-content-list a:hover i::after
     section#fifth .fifth-container .changing-content {
         font-size: 1.5rem;
     }
-    
+
     section#fifth .fifth-container .fifth-content-list {
         font-size: 1.5rem;
     }
@@ -1019,7 +1016,7 @@ section#sixth .sixth-container {
     /* border: 3px solid green; */
 }
 
-section#sixth .sixth-container > div {
+section#sixth .sixth-container>div {
     width: 40%;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
@@ -1087,7 +1084,7 @@ section#sixth .sixth-container > div {
     section#sixth .sixth-container .sixth-content {
         font-size: 1.5rem;
     }
-    
+
     section#sixth .sixth-container .sixth-sources {
         font-size: 1.5rem;
     }
