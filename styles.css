@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 * {
-    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
 }
 
@@ -383,6 +382,20 @@ section#second .second-container .media ul li:nth-child(3):hover {
         0 0 40px purple,
         0 0 60px purple,
         0 0 80px purple;
+    transform: translateX(15%);
+    transition: .5s;
+}
+
+section#second .second-container .media ul li:nth-child(4):hover {
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px rgb(0, 140, 255),
+        0 0 30px rgb(0, 140, 255),
+        0 0 40px rgb(0, 140, 255),
+        0 0 60px rgb(0, 140, 255),
+        0 0 80px rgb(0, 140, 255);
     transform: translateX(15%);
     transition: .5s;
 }
@@ -1025,6 +1038,12 @@ section#sixth .sixth-container>div {
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     padding: 1em;
+}
+
+section#sixth .sixth-container a, 
+section#sixth .sixth-container a:visited
+{
+    color: white;
 }
 
 .custom-shape-divider-bottom-1677087920 {
