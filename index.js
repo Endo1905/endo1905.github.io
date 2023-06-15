@@ -132,7 +132,7 @@ polish.onclick = () => {
 
     //===== Ja =====
 
-    sectionFirstLanguage.textContent = "Mam 20 lat i jestem Katowiczaninem, tak jednak nie zawsze tutaj mieszkałem. Urodziłem się w Redhill, Anglia, gdzie żyłem przez 3 lata. Być może, nauka języka angielskiego i polskiego na raz wpłynęła na moją umiejętność szybkiego przyswajania wiedzy zarówno językowej, jak i tej związanej z zapamiętywaniem informacji. Z pewnością, cecha ta pomaga mi cieszyć się ze zdobytej wiedzy i zachęca mnie do dalszego działania, aby lepiej poznawać świat. Ponieważ w dzisiejszych czasach wszędzie otacza nas technologia, to właśnie nauka o niej najbardziej mnie fascynuje. Dlatego chciałbym kształtować się w tej dziedzinie. Drogi czytelniku, zapraszam Ciebie do zapoznania się bliżej z moją osobą poprzez przejrzenie tej strony internetowej, która jest moją wizytówką, stworzoną stricte hobbystycznie! :)";
+    sectionFirstLanguage.textContent = "Mam 20 lat i jestem Katowiczaninem, jednak nie zawsze tutaj mieszkałem. Urodziłem się w Redhill, Anglia, gdzie spędziłem pierwsze 3 lata życia. Być może, nauka języka angielskiego i polskiego na raz wpłynęła na moją umiejętność szybkiego przyswajania wiedzy zarówno językowej, jak i tej związanej z zapamiętywaniem informacji. Z pewnością, cecha ta pomaga mi cieszyć się ze zdobytej wiedzy i zachęca mnie do dalszego działania, aby lepiej poznawać świat. Ponieważ w dzisiejszych czasach wszędzie otacza nas technologia, to właśnie nauka o niej najbardziej mnie fascynuje. Dlatego chciałbym kształtować się w tej dziedzinie. Drogi Czytelniku, zapraszam Ciebie do zapoznania się bliżej z moją osobą poprzez przejrzenie tej strony internetowej, która jest moją wizytówką, stworzoną stricte hobbystycznie! :)";
 
     //===== Ja =====
 
@@ -149,7 +149,7 @@ polish.onclick = () => {
 
     //===== Przyszłość =====
 
-    sectionThirdLanguage.textContent = "Spytany o to, jak widzę siebie w przyszłości, zapewne odpowiedziałbym, że moim celem jest praca w cyberbezpieczeństwie oraz inżynierii sieci. Choć mam wiele pasji, to właśnie sieciami oraz zabezpieczeniami chciałbym się zajmować. To stanowisko jest przede wszystkim wyzwaniem, czymś niełatwym. Proste rzeczy mnie nudzą, ja znajduję sposób na nudę podejmując różnego rodzaju wyzwania. Wierzę, że to się nie zmieni i dalej będę praktykował naukę różnych rzeczy oraz żył wykorzystując chwile najproduktywniej, z pewnością w towarzystwie rodziny oraz przyjaciół. ";
+    sectionThirdLanguage.textContent = "Zapytamy o to, jak widzę siebie w przyszłości, zapewne odpowiedziałbym, że moim celem jest praca w dziedzinie cyberbezpieczeństwa oraz inżynierii sieci. Choć mam wiele pasji, to właśnie tymi zagadnieniami chciałbym się zajmować. Stanowią one dla mnie pole do dalszego rozwoju zawodowego. Proste rzeczy mnie nudzą, ja znajduję na to sposób podejmując różnego rodzaju wyzwania. Wierzę, że to się nie zmieni i dalej będę praktykował naukę różnych umiejętności oraz żył wykorzystując czas najproduktywniej, jednocześnie utrzymując równowagę pomiędzy pracą zawodową i życiem prywatnym. ";
 
     //===== Przyszłość =====
 
@@ -161,23 +161,22 @@ polish.onclick = () => {
     sectionFourthHabitOneLanguage.children[2].children[1].textContent = "Nauka trzeciego języka - francuskiego,";
     sectionFourthHabitOneLanguage.children[2].children[2].textContent = "Czytanie książek,";
     sectionFourthHabitOneLanguage.children[2].children[3].textContent = "15 minut medytacji,";
-    sectionFourthHabitOneLanguage.children[2].children[4].textContent = "Zimne prysznice,";
-    sectionFourthHabitOneLanguage.children[2].children[5].textContent = "Nauka do certyfikatów";
+    sectionFourthHabitOneLanguage.children[2].children[4].textContent = "Nauka do certyfikatów";
 
     sectionFourthHabitOneLanguage.children[3].textContent = "Oraz wiele innych.";
 
 
     sectionFourthHabitTwoLanguage.children[0].children[0].textContent = "Sport";
-    sectionFourthHabitTwoLanguage.children[1].textContent = "Spędzanie czasu aktywnie zawsze sprawiało mi wiele radości. Najchętniej gram w piłkę nożną oraz ręczną, gdzie wykazuję się na jako bramkarz. Uważam, że ta pozycja jest największym wyzwaniem na boisku, dlatego też to właśnie wtedy czuję się najlepiej. Choć miałem pewne przerwy, dalej chętnie wychodzę na boisko i od czasu do czasu gram z przyjaciółmi oraz ojcem, ciesząc się przy tym każdą minutą.  Poza aktywnością zespołową, spacery także zaliczam do jednej z moich ulubionych form spędzania czasu wolnego. Staram się także zbudować lepszą sylwetkę, ćwicząc 3x w tygodniu. Ponieważ jestem początkującym, jeszcze nie zdążyłem zauważyć większych zmian, tak jednak wierzę w sukces, który wiąże się z procesem. ";
+    sectionFourthHabitTwoLanguage.children[1].textContent = "Spędzanie czasu aktywnie zawsze sprawiało mi wiele radości. Najchętniej gram w piłkę nożną oraz ręczną, gdzie wykazuję się jako bramkarz. Uważam, że ta pozycja jest największym wyzwaniem na boisku, dlatego też to właśnie wtedy czuję się najlepiej. Choć miałem pewne przerwy, dalej chętnie wychodzę na boisko i od czasu do czasu gram z przyjaciółmi oraz ojcem, ciesząc się przy tym każdą minutą.  Poza aktywnością zespołową, spacery także zaliczam do jednej z moich ulubionych form spędzania czasu wolnego. Staram się także zbudować lepszą sylwetkę, ćwicząc 3x w tygodniu.";
 
     sectionFourthHabitThreeLanguage.children[0].children[0].textContent = "Gry komputerowe:";
-    sectionFourthHabitThreeLanguage.children[1].textContent = "Najczęściej korzystam z komputera po to, aby uczyć się do różnych rzeczy. Nie zmienia to jednak faktu, że jest to jedno z narzędzi, których używam także dla rozrywki. Tak samo jak sport, gra na komputerze zawsze była dla mnie przyjemnością. Zazwyczaj sięgam do gier, w które mogę zagrać ze znajomymi, rzadko kiedy wybieram produkcje stricte dla jednej osoby. Na komputerze gram jednak okazjonalnie, jeśli faktycznie mogę sobie pozwolić na taką formę spędzania czasu. Nie jest to mój priorytet. Jeśli zdecyduję się na grę, z reguły sięgam do takich produkcji jak: ";
+    sectionFourthHabitThreeLanguage.children[1].textContent = "Najczęściej korzystam z komputera po to, aby znaleźć materiały źródłowe do nauki. Nie zmienia to jednak faktu, że jest to jedno z narzędzi, których używam także dla rozrywki. Tak samo jak sport, gra na komputerze zawsze była dla mnie przyjemnością. Zazwyczaj sięgam do gier, w które mogę zagrać ze znajomymi, rzadko kiedy wybieram produkcje stricte dla jednej osoby. Na komputerze gram jednak okazjonalnie, jeśli faktycznie mogę sobie pozwolić na taką formę spędzania czasu. Nie jest to mój priorytet. Jeśli zdecyduję się na grę, z reguły sięgam do takich produkcji jak: ";
 
     sectionFourthHabitFourLanguage.children[0].children[0].textContent = "Frontend: ";
-    sectionFourthHabitFourLanguage.children[1].textContent = "Przygotowując się do egzaminów zawodowych miałem okazję zapoznać się z tworzeniem witryn internetowych oraz aplikacji. Szybko wyszedłem poza materiał, sięgając po nieco bardziej skomplikowane rzeczy, ostatecznie dochodząc do wniosku, że jest to jedno z moich hobby. Lubię inspirować się oraz tworzyć animacje na stronie, ma to swój pewien urok. W zasadzie, właśnie dlatego ta strona powstała. Nie jest to jednak coś z czego chciałbym w przyszłości żyć. Mimo wszystko, inna działka IT bardziej do mnie przemawia.";
+    sectionFourthHabitFourLanguage.children[1].textContent = "Przygotowując się do egzaminów zawodowych miałem okazję zapoznać się z tworzeniem witryn internetowych oraz aplikacji. Szybko wyszedłem poza materiał, sięgając po nieco bardziej skomplikowane techniki, ostatecznie dochodząc do wniosku, że jest to jedno z moich hobby. Lubię inspirować się oraz tworzyć animacje na stronie, ma to swój pewien urok. W zasadzie, właśnie dlatego ta strona powstała. Nie jest to jednak coś z czego chciałbym w przyszłości żyć. Mimo wszystko, inna działka IT bardziej do mnie przemawia.";
 
     sectionFourthHabitFiveLanguage.children[0].children[0].textContent = "Filmy, seriale oraz książki:";
-    sectionFourthHabitFiveLanguage.children[1].textContent = "Najczęściej czytam książki. Znacznie rzadziej oglądam filmy oraz seriale. Najbardziej doceniam produkcje, które przedstawione są w świecie przygodowym lub science-fiction. Moją atencję także przykuwają takie filmy lub książki, które mają za zadanie przekazanie widzowi/czytelnikowi pewną ważną filozofię lub morał. Trudno jest mi jednoznacznie wskazać najlepsze produkcje, tak jednak jestem przekonany, że na wyróżnienie zasługują:";
+    sectionFourthHabitFiveLanguage.children[1].textContent = "Najczęściej czytam książki. Znacznie rzadziej oglądam filmy oraz seriale. Najbardziej doceniam produkcje, które przedstawione są w świecie przygodowym lub science-fiction. Moją atencję także przykuwają takie filmy lub książki, które mają za zadanie przekazanie widzowi/czytelnikowi pewną filozofię lub morał. Trudno jest mi jednoznacznie wskazać najlepsze produkcje, tak jednak jestem przekonany, że na wyróżnienie zasługują:";
     document.getElementById("tvShow").textContent = "Seriale: ";
     document.getElementById("movies").textContent = "Filmy: ";
     document.getElementById("books").textContent = "Książki: ";
@@ -206,7 +205,7 @@ polish.onclick = () => {
             setTimeout(goLeft, 100);
 
             function changeContent() {
-                swapingContent.textContent = "Doświadczenie zawodowe to mój priorytet na następne lata, ponieważ to właśnie taka wiedza jest najcenniejsza w tym zawodzie (z tego co udało mi się wyszukać). Zdaję sobie sprawę, że moja przygoda z IT będzie długa i nie zacznę od najwyższego szczebla od razu. Jestem jednak świadom, że idąc małymi krokami uda mi się wraz z doświadczeniem oraz certyfikatami znaleźć stanowisko, o którym marzę. ";
+                swapingContent.textContent = "Doświadczenie zawodowe to mój priorytet na następne lata, ponieważ to właśnie taka wiedza jest najcenniejsza w tym zawodzie (z tego co udało mi się wyszukać). Zdaję sobie sprawę, że moja przygoda z IT będzie długa i nie zacznę od najwyższego szczebla od razu. Jestem jednak świadom, że idąc małymi krokami uda mi się wraz z doświadczeniem oraz certyfikatami znaleźć stanowisko, o którym marzę.  ";
             }
 
             setTimeout(changeContent, 250)
@@ -246,7 +245,7 @@ polish.onclick = () => {
             setTimeout(goLeft, 100);
 
             function changeContent() {
-                swapingContent.textContent = "Myślałem nad wykorzystaniem starej stacji roboczej, która pełniłaby rolę serwera w mojej sieci domowej. Konkretniej - operowałbym na Debianowej dystrybucji z serwisem Samba, umożliwiając przy tym oczywiście łatwy dostęp do zasobów dla rodzinki.";
+                swapingContent.textContent = "Mój najbliższy projekt w wolnym czasie - zamierzam wykorzystać starą stację roboczą, która pełniłaby rolę serwera w mojej sieci domowej. Konkretniej - operowałbym na Debianowej dystrybucji z serwisem Samba, umożliwiając przy tym oczywiście łatwy dostęp do zasobów dla rodziny.";
             }
 
             setTimeout(changeContent, 250)
@@ -336,15 +335,15 @@ english.onclick = () => {
             text.textContent = "Enjoy your day :)"
         }
         else if (hours >= 12 && hours < 17) {
-            text.textContent = "Hope you're having a great afternoon :)"
+            text.textContent = "Enjoy your afternoon :)"
         }
         else {
-            text.textContent = "Be pleased with this very evening :)"
+            text.textContent = "Have a great evening :)"
         }
     }
     time();
 
-    sectionFirstLanguage.textContent = "I'm 20 years old and I live in Katowice, however I used to live elsewhere. I was born in Redhill, England, where I lived for 3 years. Perhaps, learning english and polish at the same time impacted on my ability to quickly grasp language knowledge and one based on remembering information. Certainly, this quality helps me to enjoy achieved witt and encourages me to take further action in order to get to know our world better. Since nowadays we've got technology all around us, this is the part of science that fascinates me the most. Concluding, that's why I have decided to develop in  networking and cybersecurity. Dear reader, I'd love to invite you to afriend with my persona better by reviewing this website - a business card - made out of honest hobby :)";
+    sectionFirstLanguage.textContent = "I'm 20 years old and I live in Katowice, however I used to live elsewhere. I was born in Redhill, England, where I lived for 3 years. Perhaps, learning English and Polish at the same time impacted on my ability to quickly grasp language knowledge and one based on remembering information. Certainly, this quality helps me to enjoy achieved witt and encourages me to take further action in order to get to know our world better. Since nowadays we've got technology all around us, this is the part of science that fascinates me the most. Concluding, that's why I have decided to develop in  networking and cybersecurity. Dear reader, I'd love to invite you to afriend with my persona better by reviewing this website - a business card - made out of honest hobby :)";
 
     sectionSecondLanguage.children[0].children[0].textContent = "About me";
     sectionSecondLanguage.children[1].children[0].textContent = "My future";
@@ -353,36 +352,33 @@ english.onclick = () => {
     sectionSecondLanguage.children[4].children[0].textContent = "About site";
     sectionSecondLanguage.style.cursor = "pointer";
 
-    sectionThirdLanguage.textContent = "If asked about my future, I'd respond with my vision of a cybersecurity and networking expert. Although I have many passions, the very hobby I previusly mentioned is what makes me want to work as one. What's the most important, the job is a challange, something uneasy. Simple things bore me and I always find a way to beat this feeling by creating new goals. I believe that this won't change and I'll be still practicing learning many things, additionaly spending my time productively. Certainly with a company of my familly and friends.";
+    sectionThirdLanguage.textContent = "If asked about my future, I'd respond with my vision of a cybersecurity and networking expert. Although I have many passions, the very hobby I previusly mentioned is what makes me want to work as one. What's the most important, the job is a challange, something uneasy. Simple things bore me and I always find a way to beat this feeling by creating new goals. I believe that this won't change and I'll be still practicing learning many things, additionaly spending my time productively. Certainly with a company of my family and friends.";
 
     sectionFourthHabitOneLanguage.children[0].children[0].textContent = "Self-discipline with self-improvement:";
-    sectionFourthHabitOneLanguage.children[1].textContent = "When I was 18 I reliesed that we, young people, spend too much time on luxury and rest. Countless quanity of my peers find an excuse for everything. I learned that if I want to utilize my potential, independently of my attitude I must actively act. Frankly speaking, these aren't even my words. These words have been spoken by people who achieved a success in their life. I asked myself a question: 'Why would I waste everything for luxury?'. I left so-called 'comfort bubble' and in the meantime I gave myself some goals, such as:";
+    sectionFourthHabitOneLanguage.children[1].textContent = "When I was 18 I relaised that we, young people, spend too much time on luxury and rest. Many of my peers find an excuse for everything. I learned that if I want to utilize my potential, independently of my attitude I must simply act. Frankly speaking, these aren't even my words. These words have been spoken by people who achieved a success in their life. I asked myself a question: 'Why would I waste everything for luxury?'. I left so-called 'comfort bubble' and in the meantime I established some goals for myself, such as:";
     sectionFourthHabitOneLanguage.children[2].children[0].textContent = "Regular workout,";
     sectionFourthHabitOneLanguage.children[2].children[1].textContent = "Studying third language - french,";
     sectionFourthHabitOneLanguage.children[2].children[2].textContent = "Reading books,";
     sectionFourthHabitOneLanguage.children[2].children[3].textContent = "15 minutes of meditation,";
-    sectionFourthHabitOneLanguage.children[2].children[4].textContent = "Cold showers,";
-    sectionFourthHabitOneLanguage.children[2].children[5].textContent = "Certificates study,";
+    sectionFourthHabitOneLanguage.children[2].children[4].textContent = "Studies towards IT certification,";
     sectionFourthHabitOneLanguage.children[3].textContent = "And many more.";
 
-
-    sectionFourthHabitTwoLanguage.children[1].textContent = "Spending time actively always has been a pleasure for me. Preferabely I play football and handball, where I perform as a goalkeeper. I find this position to be the most challanging on the pitch, therefore that's when I feel the best. Although I had some breaks, I still do go out and from time to time I play with my friends and my father, enjoying every minute in the meantime. Besides team-comp activities, I do also include simple walks to my list of favouirite forms of spending time. I am additionaly trying to improve my silhouette by training 3x a week. Since I am a begginer, I haven't noticed any bigger differences yet, nevetherless I believe in success that is certainly bonded with a process.";
-
+    sectionFourthHabitTwoLanguage.children[1].textContent = "Spending time actively always has been a pleasure for me. Preferabely I play football and handball, where I perform as a goalkeeper. I find this position to be the most challanging on the pitch, therefore that's when I feel the best. Although I had some breaks, I still do go out and from time to time I play with my friends and my father, enjoying every minute in the meantime. Besides team-cooperation activities, I also added simple walks to my list of favouirite forms of spending time. In addition I try to improve my silhouette by training 5x a week.";
 
     sectionFourthHabitThreeLanguage.children[0].children[0].textContent = "Computer games";
-    sectionFourthHabitThreeLanguage.children[1].textContent = "Most frequently I use my computer to learn about things. It doesn't change the fact, that it's a tool I do also use for entertainment. Like sports, playing computer games has always been a pleasure. Usually I pick games that I can play with my friends, rarely those, that are single-player. I play on a computer ocasionally tho, only in case when I actually can allow myself for such enjoyment. It is not my priority. If I decide to play something, I usually reach for such productions as: ";
+    sectionFourthHabitThreeLanguage.children[1].textContent = "Most frequently I use my computer to seek information for my studies. It doesn't change the fact, that it's a tool I do also use for entertainment. Like sports, playing computer games has always been a pleasure. Usually I pick games that I can play with my friends, rarely those, that are single-player. I play computer games, only in case when I actually can allow myself for such enjoyment. It is not my priority. If I decide to play something, I usually reach for such productions as: ";
 
-    sectionFourthHabitFourLanguage.children[1].textContent = "When preparing for my exams, I had an opportunity to get to know something abot creating websites and applications. I quickly reached out for more than the original material offered, eventually concluding that creation of websites is one of my hobbies. I fancy inspiring and creating some basic animations on websites, it's got its charm. In fact, that's how the website has been made. Nevetherless, another IT branch is what motivates me more.";
+    sectionFourthHabitFourLanguage.children[1].textContent = "When preparing for my exams, I had an opportunity to get to know something about creating websites and applications. I quickly reached out for more than the original material offered, eventually concluding that creation of websites is one of my hobbies. I fancy inspiring and creating some basic animations on websites, it's got its charm. In fact, that's how this website was created. Nevetherless, other IT specialties motivate me more.";
 
     sectionFourthHabitFiveLanguage.children[0].children[0].textContent = "Movies, TV shows and books:";
-    sectionFourthHabitFiveLanguage.children[1].textContent = "Most often I read books. Much less often I watch movies and shows. I favourabely appreciater those productions, that are shown in adventerous or science-fiction world. My attention is also brought by such movies/books that contain an important philosophy under the sotry or a moral. It is a tough task to choose directly one best production, nevetherless I am certain that ones that need some favoritism are: ";
+    sectionFourthHabitFiveLanguage.children[1].textContent = "Most often I read books. Much less often I watch movies and TV shows. I favourabely appreciate those productions, that are shown in adventerous or science-fiction world. My attention is also brought by such movies/books that contain an important philosophy or a moral. It is a tough task to choose directly one best production, nevetherless I am certain that ones that should be mentioned here are: ";
     document.getElementById("tvShow").textContent = "TV Shows: ";
     document.getElementById("movies").textContent = "Movies: ";
     document.getElementById("books").textContent = "Books: ";
     document.getElementById("witcher").textContent = "The Witcher series,";
 
 
-    sectionFifthContentLanguage.textContent = "I find experience to be my prio for the next years, mainly because this very knowledge is the most valuable in this proffesion (from what I managed to find out). I am aware that my journey with IT will be long and I won't be starting and the top right ahead. I am concious that with little steps I'll manage to find a dream-proffesion with an assist of experience and certificates.";
+    sectionFifthContentLanguage.textContent = "I find experience to be my priority for the next years, mainly because this very knowledge is the most valuable in this proffesion (from what I managed to find out so far). I am aware that my journey with IT will be long and I won't be starting at the top right away. I am concious that step by step I'll find the right place in IT world.";
     helpdeskLanguage.textContent = "IT Support Job";
     certLanguage.textContent = "Certificates";
     cloudLanguage.textContent = "Home-cloud + Apache";
@@ -496,10 +492,10 @@ english.onclick = () => {
 
     slide();
 
-    sixthContentLanguage.children[0].textContent = "How long did it take to make a website?";
-    sixthContentLanguage.children[1].textContent = "- Beggining: 31.01.2023";
+    sixthContentLanguage.children[0].textContent = "How long did it take to make this website?";
+    sixthContentLanguage.children[1].textContent = "- Beginning: 31.01.2023";
     sixthContentLanguage.children[2].textContent = "- End: 23.02.2023";
-    sixthContentLanguage.children[3].textContent = "What is the website made of?";
+    sixthContentLanguage.children[3].textContent = "What is this website made of?";
 
     sixthSourcesLanguage.children[0].textContent = "Sources from where I got some of the animations: ";
     sixthSourcesLanguage.children[1].children[0].children[0].children[0].textContent = "Sliding panels,";
@@ -565,8 +561,7 @@ french.onclick = () => {
     sectionFourthHabitOneLanguage.children[2].children[1].textContent = "J'etudie francais,";
     sectionFourthHabitOneLanguage.children[2].children[2].textContent = "Je lire des livres,";
     sectionFourthHabitOneLanguage.children[2].children[3].textContent = "je médite pour 15 minutes,";
-    sectionFourthHabitOneLanguage.children[2].children[4].textContent = "Je prends une douche frois,";
-    sectionFourthHabitOneLanguage.children[2].children[5].textContent = "J'etudie pour les certificats,";
+    sectionFourthHabitOneLanguage.children[2].children[4].textContent = "J'etudie pour les certificats,";
 
     sectionFourthHabitOneLanguage.children[3].textContent = "Et plusieurs. Pour plus d'informations, changer du langue s'il vous plait!";
 
@@ -770,7 +765,7 @@ function slide() {
         setTimeout(goLeft, 100);
 
         function changeContent() {
-            swapingContent.textContent = "Myślałem nad wykorzystaniem starej stacji roboczej, która pełniłaby rolę serwera w mojej sieci domowej. Konkretniej - operowałbym na Debianowej dystrybucji z serwisem Samba, umożliwiając przy tym oczywiście łatwy dostęp do zasobów dla rodzinki.";
+            swapingContent.textContent = "Mój najbliższy projekt w wolnym czasie - zamierzam wykorzystać starą stację roboczą, która pełniłaby rolę serwera w mojej sieci domowej. Konkretniej - operowałbym na Debianowej dystrybucji z serwisem Samba, umożliwiając przy tym oczywiście łatwy dostęp do zasobów dla rodziny.";
         }
 
         setTimeout(changeContent, 250)
