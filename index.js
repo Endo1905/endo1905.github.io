@@ -186,7 +186,7 @@ polish.onclick = () => {
 
     //===== Cele =====
 
-    sectionFifthContentLanguage.textContent = "Śmiało kliknij w jeden z paneli znajdujących się obok ->";
+    sectionFifthContentLanguage.textContent = "Doświadczenie zawodowe to mój priorytet na następne lata, ponieważ to właśnie taka wiedza jest najcenniejsza w tym zawodzie (z tego co udało mi się wyszukać). Zdaję sobie sprawę, że moja przygoda z IT będzie długa i nie zacznę od najwyższego szczebla od razu. Jestem jednak świadom, że idąc małymi krokami uda mi się wraz z doświadczeniem oraz certyfikatami znaleźć stanowisko, o którym marzę. ";
     helpdeskLanguage.textContent = "Praca w IT";
     certLanguage.textContent = "Certyfikat";
     cloudLanguage.textContent = "Chmura domowa + Apache2";
